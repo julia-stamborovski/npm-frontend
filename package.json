@@ -13,6 +13,7 @@
     "clipboard.js": "^1.0.1",
     "jquery": "^3.6.3",
     "moment": "^2.29.4",
+    "node-sass": "^8.0.0",
     "uglify-js": "^3.17.4"
   }
 }
