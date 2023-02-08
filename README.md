@@ -4,3 +4,6 @@
 ## Npm Script
 ### minclip
 `npm run minclip`
+
+## Module Exports
+`node module-exports-main.js`
