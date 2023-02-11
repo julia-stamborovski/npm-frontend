@@ -11,9 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "clipboard.js": "^1.0.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
     "jquery": "^3.6.3",
     "moment": "^2.29.4",
     "node-sass": "^8.0.0",
+    "sass": "^1.58.0",
     "uglify-js": "^3.17.4"
   }
 }
