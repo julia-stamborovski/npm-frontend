@@ -1,3 +1,4 @@
+const { task } = require('gulp');
 const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const autoprefixer = require('gulp-autoprefixer');
@@ -18,3 +19,10 @@ function compilaSass()
 
 
 gulp.task('activeSass', compilaSass);
+
+function watchGulp()
+{
+    gulp.watch('css/scss/*.scss', compilaSass);
+}
+
+gulp.task('default', watchGulp);
