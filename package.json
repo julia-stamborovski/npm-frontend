@@ -12,6 +12,7 @@
   "dependencies": {
     "clipboard.js": "^1.0.1",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-sass": "^5.1.0",
     "jquery": "^3.6.3",
     "moment": "^2.29.4",
